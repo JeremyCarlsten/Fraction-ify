@@ -4,9 +4,11 @@
 
     box-sizing: border-box;
 }
+
 body{
     background:url('../images/triangular.png');
 }
+
 #page-wrap{
     background: #fff;
     background: linear-gradient(#fff 60%, #ccc);
@@ -20,6 +22,12 @@ body{
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -o-border-radius: 10px;
+}
+
+label.amountType{ /* Position off screen but allow for screen readers to use */
+    position: absolute;
+    left: -100px;
+    top: -100px;
 }
 
 

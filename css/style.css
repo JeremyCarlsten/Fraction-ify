@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+}
+body{
+    background:url('../images/triangular.png');
+}
+#page-wrap{
+    background: #fff;
+    background: linear-gradient(#fff 60%, #ccc);
+    border: 1px solid #a1a1a1;
+    margin: 50px auto;
+    padding: 30px 20px;
+    min-height: 400px;
+    width: 960px;
+
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+

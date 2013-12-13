@@ -10,7 +10,7 @@
 <div id="page-wrap">
     <form method="POST" autocomplete="on">
         <label for="amount">Amount:</label>
-        <input id="amount" class="fractionified" name="amount" placeholder="use 'x/x' for fractions "/>
+        <input id="amount" class="fractionify" name="amount" placeholder="use 'x/x' for fractions "/>
         <label class="amountType" for="amountType">measurement type</label>
         <select id="amountType">
             <option>Teaspoon</option>
@@ -24,8 +24,10 @@
     </form>
 </div>
 <script type="text/javascript">
-    $(".fractionified").change(function(){
-       $(this).fractionify(.25);
+    $(document).ready(function () {
+        $(".fractionified").change(function () {
+            $(this).fractionify(.25);
+        });
     });
 </script>
 </body>

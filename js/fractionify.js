@@ -1,6 +1,9 @@
-// Author: Jeremy Carlsten
-// Author URI: www.jeremycarlsten.com
-// Source: https://github.com/JeremyCarlsten/Fraction-ify
+/* Author: Jeremy Carlsten
+ * Author URI: www.jeremycarlsten.com
+ * Source: https://github.com/JeremyCarlsten/Fraction-ify
+ * Version: 1.0
+ * Licence: MIT (2014)
+ */
 
 $.fn.fractionify = function (step) {
     step = step || .0625

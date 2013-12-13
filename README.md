@@ -7,7 +7,7 @@ Small Jquery/Javascript library to alter an HTML text input to change decimals i
 How to Use
 ----------
 
-Step 1: Download the minified js (Or the fractionify.js if you want to improve it)
+Step 1: Download the [minified js](https://github.com/JeremyCarlsten/Fraction-ify/blob/master/js/fractionify-1.0.min.js) (Right click and save as)
 
 Step 2: Make sure you include all js files(including the jQuery library)
 

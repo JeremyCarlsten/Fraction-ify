@@ -11,3 +11,11 @@ $.fn.fractionify = function (step) {
         console.log("called It")
     });
 }
+
+getFractionValue = function (number) {
+    number = number * 100
+    var fraction = number + "/" + 100
+    console.log(fraction)
+    return fraction
+}
+

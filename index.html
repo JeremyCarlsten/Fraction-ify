@@ -7,21 +7,26 @@
     <script type="text/javascript" src="js/fractionify.js"></script>
 </head>
 <body>
-    <div id="page-wrap">
-        <form method="POST" autocomplete="on">
-            <label for="amount">Amount:</label>
-            <input type="number" id="amount" class="fractionified" name="amount" placeholder="use 'x/x' for fractions " />
-            <label class="amountType" for="amountType">measurement type</label>
-            <select id="amountType">
-                <option>Teaspoon</option>
-                <option>TableSpoon</option>
-                <option>Cup</option>
-                <option>Stick</option>
-                <option>Oz</option>
-                <option>Can</option>
-            </select>
+<div id="page-wrap">
+    <form method="POST" autocomplete="on">
+        <label for="amount">Amount:</label>
+        <input id="amount" class="fractionified" name="amount" placeholder="use 'x/x' for fractions "/>
+        <label class="amountType" for="amountType">measurement type</label>
+        <select id="amountType">
+            <option>Teaspoon</option>
+            <option>TableSpoon</option>
+            <option>Cup</option>
+            <option>Stick</option>
+            <option>Oz</option>
+            <option>Can</option>
+        </select>
 
-        </form>
-    </div>
+    </form>
+</div>
+<script type="text/javascript">
+    $(".fractionified").change(function(){
+       $(this).fractionify(.25);
+    });
+</script>
 </body>
 </html>

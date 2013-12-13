@@ -7,15 +7,21 @@ $.fn.fractionify = function (step) {
     return this.each(function () {
         this.setAttribute("step", step);
         this.value = getFractionValue(this.value);
-
-        console.log("called It")
     });
 }
 
 getFractionValue = function (number) {
     number = number * 100
-    var fraction = number + "/" + 100
-    console.log(fraction)
+    var fractionList = simplifyFraction(number, 100)
+    var fraction = fractionList[0] + "/" + fractionList[1]
     return fraction
 }
 
+simplifyFraction = function (numerator, denominator) {
+    var gcd = function gcd(a, b) {
+        return b ? gcd(b, a % b) : a;
+    };
+    commondenom = gcd(numerator, denominator);
+
+    return [numerator / commondenom, denominator / commondenom]
+}

@@ -3,6 +3,8 @@
     padding: 0px;
 
     box-sizing: border-box;
+
+    font: normal 14px/18px sans-serif;
 }
 
 body{
@@ -28,6 +30,10 @@ label.amountType{ /* Position off screen but allow for screen readers to use */
     position: absolute;
     left: -100px;
     top: -100px;
+}
+
+#amount, #amountType{
+    padding: .5em;
 }
 
 

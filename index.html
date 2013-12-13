@@ -3,12 +3,14 @@
 <head>
     <title>Fraction-ify</title>
     <link rel="stylesheet" href="css/style.css"/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/fractionify.js"></script>
 </head>
 <body>
     <div id="page-wrap">
         <form method="POST" autocomplete="on">
             <label for="amount">Amount:</label>
-            <input type="number" step="0.0625" id="amount" name="amount" placeholder="use 'x/x' for fractions " />
+            <input type="number" id="amount" class="fractionified" name="amount" placeholder="use 'x/x' for fractions " />
             <label class="amountType" for="amountType">measurement type</label>
             <select id="amountType">
                 <option>Teaspoon</option>

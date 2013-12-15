@@ -6,9 +6,7 @@
  */
 
 $.fn.fractionify = function (step) {
-    step = step || .0625
     return this.each(function () {
-        this.setAttribute("step", step);
         this.value = getFractionValue(this.value);
     });
 }

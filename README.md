@@ -28,7 +28,7 @@ Step 3: Add this code to the bottom of your page to call the plugin.
 ```html
     <script type="text/javascript">
         $(document).ready(function () {
-            $(".fractionified").change(function () {
+            $(".fractionify").change(function () {
                 $(this).fractionify();
             });
         });

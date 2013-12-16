@@ -35,11 +35,11 @@ Step 3: Add this code to the bottom of your page to call the plugin.
     </script>
 ```
 
-Step 4: You're all set shoot me an email or submit an issue if you run into problems.
+Step 4: You're all set; should you run into any problems shoot me an email, or even better submit a push request!
 
 -----
 
-Note: the class used can be whatever you want simply change the class and the line below to the same text
+Note: The class used can be whatever you want simply change the class and the line below to the same text
 
 
 ```html

@@ -5,7 +5,10 @@
  * Licence: MIT (2014)
  */
 
-$.fn.fractionify = function (step) {
+$.fn.fractionify = function () {
+    if (this.length == 0) {
+        console.log("none found");
+    }
     return this.each(function () {
         this.value = getFractionValue(this.value);
     });
@@ -13,9 +16,9 @@ $.fn.fractionify = function (step) {
 
 getFractionValue = function (number) {
     number = number * 100
-    var fractionList = simplifyFraction(number, 100)
-    var fraction = fractionList[0] + "/" + fractionList[1]
-    return fraction
+    var fractionList = simplifyFraction(number, 100);
+    var fraction = fractionList[0] + "/" + fractionList[1];
+    return fraction;
 }
 
 simplifyFraction = function (numerator, denominator) {

@@ -3,6 +3,8 @@ Fraction-ify
 
 Small Jquery/Javascript library to alter an HTML text input to change decimals into a fraction value.
 
+![Alt text](https://www.codeship.io/projects/522b2b20-4adf-0131-dda3-42711064fd1f/status)
+
 
 How to Use
 ----------

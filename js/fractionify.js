@@ -6,7 +6,7 @@
  */
 
 $.fn.fractionify = function () {
-    if (this.length == 0) {
+    if (this.length === 0) {
         console.log("none found");
     }
     return this.each(function () {
@@ -15,7 +15,7 @@ $.fn.fractionify = function () {
 };
 
 function getFraction(number) {
-    number = number * 100
+    number = number * 100;
     var fractionList = simplifyFraction(number, 100);
     var fraction = fractionList[0] + "/" + fractionList[1];
     return fraction;
@@ -25,7 +25,7 @@ function simplifyFraction(numerator, denominator) {
 
     greatestCommonFactor = calculateGreatestCommonFactor(numerator, denominator);
 
-    return [numerator / greatestCommonFactor, denominator / greatestCommonFactor]
+    return [numerator / greatestCommonFactor, denominator / greatestCommonFactor];
 }
 
 function calculateGreatestCommonFactor(a, b) {

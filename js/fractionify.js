@@ -28,14 +28,14 @@ function simplifyFraction(numerator, denominator) {
     return [numerator / greatestCommonFactor, denominator / greatestCommonFactor];
 }
 
-function calculateGreatestCommonFactor(a, b) {
-    if (b) {
-        if((parseInt(b) === 1)){
+function calculateGreatestCommonFactor(number1, number2) {
+    if (number2) {
+        if((parseInt(number2) === 1)){
             return 1;
         }else{
-            return calculateGreatestCommonFactor(b, a % b);
+            return calculateGreatestCommonFactor(number2, number1 % number2);
         }
     } else {
-        return a;
+        return number1;
     }
 }

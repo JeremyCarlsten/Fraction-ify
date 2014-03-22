@@ -30,7 +30,8 @@ function simplifyFraction(numerator, denominator) {
 
 function calculateGreatestCommonFactor(number1, number2) {
     if (number2) {
-        if((parseInt(number2) === 1)){
+        var parsedNumber2 = parseInt(number2);
+        if((parsedNumber2 === 1 || parsedNumber2 === 0)){
             return 1;
         }else{
             return calculateGreatestCommonFactor(number2, number1 % number2);

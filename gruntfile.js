@@ -8,7 +8,7 @@ module.exports = function (grunt) {
             },
             dist: {
                 files: [
-                    {src: '/js/*.js', dest: 'fractionify-0.1.0.min.js'}
+                    {src: 'src/js/*.js', dest: 'fractionify-0.1.0.min.js'}
                 ]
             }
         },

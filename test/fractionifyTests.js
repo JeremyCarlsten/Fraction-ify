@@ -34,7 +34,7 @@ test("Test greatest common denominator happyPath", function () {
 test("Test no greatestCommon Factor", function () {
     deepEqual(calculateGreatestCommonFactor(1.23456,100), 1, "large number without a GCF");
     deepEqual(calculateGreatestCommonFactor(1.789456,100), 1,"large number without a GCF");
-    deepEqual(calculateGreatestCommonFactor(0.23456,100), 1,"small number without a GCF");
-    deepEqual(calculateGreatestCommonFactor(0.123456,100), 1,"small number without a GCF");
-    deepEqual(calculateGreatestCommonFactor(0.123456789,100), 1, "small number without a GCF");
+    deepEqual(calculateGreatestCommonFactor(0.23456,100), 1,"small number without a GCF 1");
+    deepEqual(calculateGreatestCommonFactor(0.123456,100), 1,"small number without a GCF 2");
+    deepEqual(calculateGreatestCommonFactor(0.123456789,100), 1, "small number without a GCF 3");
 });

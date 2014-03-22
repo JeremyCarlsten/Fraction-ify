@@ -2,7 +2,7 @@
   "name": "Fraction-ify",
   "version": "0.1.0",
   "scripts": {
-      "test": "grunt test --verbose --force"
+      "test": "grunt test --verbose"
   },
   "devDependencies": {
     "grunt": "^0.4.3",

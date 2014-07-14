@@ -1,6 +1,6 @@
 Fraction-ify
 ============
-[![Build Status](https://travis-ci.org/JeremyCarlsten/Fraction-ify.png?branch=master)](https://travis-ci.org/JeremyCarlsten/Fraction-ify)
+[![Build Status](https://travis-ci.org/JeremyCarlsten/Fraction-ify.png?branch=master)](https://travis-ci.org/JeremyCarlsten/Fraction-ify) [![Code Climate](https://codeclimate.com/github/JeremyCarlsten/Fraction-ify.png)](https://codeclimate.com/github/JeremyCarlsten/Fraction-ify)
 
 Small Jquery/Javascript library to alter an HTML text input to change decimals into a fraction value.
 
